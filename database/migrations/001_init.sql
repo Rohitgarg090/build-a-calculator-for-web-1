@@ -1,0 +1,27 @@
+-- -------------------------------------------------------
+-- No SQL migration needed for this project.
+-- This calculator is entirely client-side with no
+-- database or persistent storage requirements.
+--
+-- This file is intentionally left as a placeholder.
+-- Run migrations only if you extend the app with
+-- server-side features in the future.
+-- -------------------------------------------------------
+
+-- Potential future migration (commented out as reference):
+--
+-- CREATE TABLE IF NOT EXISTS "CalculationHistory" (
+--   "id"         TEXT NOT NULL PRIMARY KEY,
+--   "expression" TEXT NOT NULL,
+--   "result"     TEXT NOT NULL,
+--   "createdAt"  DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+-- );
+--
+-- CREATE TABLE IF NOT EXISTS "UserPreference" (
+--   "id"            TEXT NOT NULL PRIMARY KEY,
+--   "theme"         TEXT NOT NULL DEFAULT 'dark',
+--   "decimalPlaces" INTEGER NOT NULL DEFAULT 10,
+--   "soundEnabled"  BOOLEAN NOT NULL DEFAULT 0,
+--   "createdAt"     DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+--   "updatedAt"     DATETIME NOT NULL
+-- );

@@ -1,0 +1,16 @@
+export const tokens = {
+  primary: '#6366f1',
+  primaryFg: '#ffffff',
+  background: '#111113',
+  surface: '#1c1c1f',
+  surfaceAlt: '#2a2a2e',
+  text: '#f4f4f5',
+  textMuted: '#71717a',
+  accent: '#a78bfa',
+  error: '#ef4444',
+  success: '#22c55e',
+  warning: '#f59e0b',
+  border: '#2e2e33',
+  fontFamily: 'Inter, system-ui, sans-serif',
+  borderRadius: '8px',
+} as const
